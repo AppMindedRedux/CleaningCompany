@@ -6,6 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class HouseApp {
     public static void main(String[] args) {
+    	
 //        CleaningTool broom = new Broom();
 //        CleaningServiceImpl jill = new CleaningServiceImpl();
 //        jill.setCleaningTool(broom);
@@ -13,14 +14,14 @@ public class HouseApp {
 
         ConfigurableApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
 
-//   //     CleaningService jill = ctx.getBean("jill", CleaningService.class);
+//        CleaningService jill = ctx.getBean("jill", CleaningService.class);
 //
 //        CleaningService bob = ctx.getBean("bob", CleaningService.class);
 //
 //        CleaningService jane = ctx.getBean("jane", CleaningService.class);
 //
 //
-//     //   jill.clean();
+//     	  jill.clean();
 //        bob.clean();
 //        jane.clean();
 
